@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "webadmin"
+version = "0.1.0"
+description = "Lista de noticas oficiales del curso"
+authors = ["Fernando Aguilar <programfer@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+reflex = "^0.5.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
